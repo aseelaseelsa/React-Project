@@ -1,0 +1,59 @@
+/*font-family: 'Roboto Condensed', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+.gradientForm{
+    background-color: rgb(243, 248, 249);
+   
+}
+
+/* //////////////////////// */
+.sendBtn {
+  align-items: center;
+  font-size: 17px;
+  padding: 0.5em 2.4em 0.5em 2.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(255, 0, 13, 0.704) 0%, rgba(255, 0, 13, 0.958) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em rgba(255, 0, 13, 0.704);
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.sendBtn:hover {
+box-shadow: 0 0.5em 1.5em -0.5em rgba(255, 0, 13, 0.704);
+}
+
+.sendBtn:active {
+box-shadow: 0 0.3em 1em -0.5em rgba(255, 0, 13, 0.704);
+}
+
+
+
+.Welcome,h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(29, 42, 77);
+    font-weight: 800;
+    font-size: 28px;
+}
+.gradientCustom22{
+background-image: linear-gradient(rgba(0, 0, 0, 0.595),rgba(0, 0, 0, 0.249)),url("../../../public/img/3d-doctor-with-stethoscope-isolated-contains-clipping-path_1401-1669.webp");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h4{
+  color: whitesmoke;
+  font-size: 22px;
+
+
+}
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+}

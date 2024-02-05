@@ -1,0 +1,72 @@
+/*font-family: 'Roboto Condensed', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.footer{
+    background-color: rgb(29, 42, 77);
+}
+.icon1{
+    color:rgb(60, 83, 146) ;
+    
+   
+}
+.icon1:hover{
+    box-shadow: 2px 3px 2px 1px rgb(60, 83, 146) ;
+    color:rgb(60, 83, 146) ;
+}
+
+
+
+
+.icon2{
+    color:rgb(17, 187, 216) ;
+   
+}
+.icon2:hover{
+    box-shadow: 2px 3px 2px 1px rgb(17, 187, 216) ;
+    color:rgb(17, 187, 216) ;
+}
+
+
+
+
+
+.icon3{
+    color:rgb(48, 90, 205) ;
+   
+}
+.icon3:hover{
+    box-shadow: 2px 3px 2px 1px rgb(48, 90, 205) ;
+    color:rgb(48, 90, 205) ;
+}
+
+
+
+
+
+
+.icon4{
+    color:rgb(199, 98, 20) ;
+   
+}
+.icon4:hover{
+    box-shadow: 2px 3px 2px 1px rgb(199, 98, 20) ;
+    color:rgb(199, 98, 20) ;
+}
+
+
+
+
+.Headar{
+    border-bottom: 3px solid rgb(247, 247, 235);
+    font-size: 25px;
+    color: rgba(210, 30, 39, 0.704);
+    font-weight: 700;
+     font-family: 'Roboto Condensed', sans-serif;
+  }
+  .write{
+    font-size: 17px;
+    
+    font-weight: 400;
+     font-family: 'Roboto Condensed', sans-serif;
+  }
