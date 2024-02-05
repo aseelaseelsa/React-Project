@@ -62,9 +62,7 @@ export default function ShowForm() {
                 <div className='col-md-4 pe-4'>
                   <label className={`${style.name1} py-2  `}>(Age)</label><input type="text" className={`${style.input4} w-100 mb-3 ps-1`} disabled value={PForm.Age} />
                 </div>
-                {/* <div className='col-md-4 pe-4'>
-                  <label className={`${style.name1} py-2  `}>(Age yrs. mons)</label><input type="text" className={`${style.input4} w-100 mb-3 ps-1`} disabled value={PForm.AgeYearsOrMonths} />
-                </div> */}
+             
                 <div className='col-md-4  pe-4'>
                   <h6 className={`${style.name1} py-2  `}>(Age yrs. mons)</h6>
                   {['Years', 'Months'].map((option) => {

@@ -9,7 +9,7 @@ import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 
 export default function Form() {
-  let navigate = useNavigate()   //للتحويل لصفحة ثانية بعد ما يعمل لوج ان بنجاح
+  let navigate = useNavigate()   
   let [statusError, setStatusError] = useState('');
 
   let formik = useFormik({

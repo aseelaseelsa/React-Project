@@ -24,7 +24,7 @@ export default function Dashbord() {
     inService: Yup.string().required('Status is required'),
   })
 
-  let navigate = useNavigate()   //للتحويل لصفحة ثانية بعد ما يعمل لوج ان بنجاح
+  let navigate = useNavigate()   
 
   let [paramedics, setParamedics] = useState([]);
   let [statusError, setStatusError] = useState('');

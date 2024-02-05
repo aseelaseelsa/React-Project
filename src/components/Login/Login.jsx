@@ -18,12 +18,9 @@ export default function Login2(props) {
     password: Yup.string().required('password is required'),
   })
 
-  let navigate = useNavigate();   //للتحويل لصفحة ثانية بعد ما يعمل لوج ان بنجاح
+  let navigate = useNavigate();   
 
-
-  //formik:للتعامل مع الفورم 
   let formik = useFormik({
-    //object contain value that send to backend
     initialValues: {
       email: '',
       password: '',
@@ -34,7 +31,6 @@ export default function Login2(props) {
 
   async function sendLoginData(values) {
     try{
- //post take api and values
  let { data } = await axios.post("http://127.0.0.1:8000/api/login", values).catch((error) =>{
   toast.error(error.response.data.message, {
     position: "top-right",
@@ -46,11 +42,9 @@ export default function Login2(props) {
     progress: undefined,
     theme: "colored",
   });
-  // console.log(error);
 })
 
 
-//if successful
 if (data.success === true) {
   toast.success('Login Successfully', {
     position: "top-right",
@@ -69,7 +63,6 @@ if (data.success === true) {
   props.info();
   navigate('/');
 }
-//end if
     }catch (error) {
       console.log(error);
     }

@@ -6,13 +6,13 @@ import { useNavigate } from 'react-router-dom';
 
 export default function AdminHospitalProtectedRouter({ children }) {
   let [user, setUser] = useState(null);
-  let navigate = useNavigate()   //للتحويل لصفحة ثانية بعد ما يعمل لوج ان بنجاح
+  let navigate = useNavigate()   
 
 
 
   
   useEffect(() => {
-    if (localStorage.getItem('userToken')) {//اذا كان في توكين معناها هاد الشحص حقيقي استدعي السيف كرنت يوزر
+    if (localStorage.getItem('userToken')) {
       let token = localStorage.getItem('userToken');
       const decoded = jwtDecode(token);
       console.log(decoded);

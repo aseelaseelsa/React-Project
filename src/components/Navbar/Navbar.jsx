@@ -3,10 +3,8 @@ import { Link, useLocation } from 'react-router-dom'
 import style from './Navbar.module.css';
 export default function Navbar({ user, logout }) {
 
-  //object return value
   const location = useLocation();
 
-  //function return true or false
   function isActive(route) {
     return location.pathname === route;
   }

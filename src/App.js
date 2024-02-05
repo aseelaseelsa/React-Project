@@ -22,8 +22,7 @@ import PageNotFound from './components/PageNotFound/PageNotFound.jsx';
 
 
 export default function App() {
-  let [user, setUser] = useState(null);// الداتا المفكوك تشفيرها
-  //   فك التشفير وعملتها بالااب حتر اقدر ارسل الداتا لجميع الصفحات رح يتنفذ بعد ما اعمل لوج ان
+  let [user, setUser] = useState(null);
   function saveCurrentUser() {
     let token = localStorage.getItem('userToken');
     const decoded = jwtDecode(token);
@@ -31,10 +30,9 @@ export default function App() {
 
   }
 
-  //app اول ما تفتح ال
-  // روح شوف اذا في يوزر باللوكل ستوريج او لا
+  
   useEffect(() => {
-    if (localStorage.getItem('userToken')) {//اذا كان في توكين معناها هاد الشحص حقيقي استدعي السيف كرنت يوزر
+    if (localStorage.getItem('userToken')) {
       saveCurrentUser();
     }
   }, []);
